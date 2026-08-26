@@ -1,7 +1,7 @@
 package MyObjects;
 
 public class MyCar {
-    int no_of_wheels;
+    public int no_of_wheels;
     String color;
     int no_of_sheets;
     String fuel;
@@ -12,7 +12,7 @@ public class MyCar {
         //    }
 
 //    Parameterized Constructor
-    MyCar(int wheels, String colors, int sheets, String fuel_type) {
+    public MyCar(int wheels, String colors, int sheets, String fuel_type) {
         this.no_of_wheels = wheels;
         this.color = colors;
         this.no_of_sheets = sheets;
