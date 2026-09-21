@@ -32,8 +32,11 @@ class Kavitha extends Parent{
 public class MyInherit {
     static void main(String[] args) {
         Ram raj = new Ram(200);
+        Kavitha kavi = new Kavitha(200);
+
 
         System.out.println("raj.AssetsWorth = " + raj.AssetsWorth);
+        System.out.println("kavi.AssetsWorth = " + kavi.AssetsWorth);
 
     }
 }
