@@ -22,6 +22,10 @@ class Student{
     private String name;
     private int age;
 
+    public void display(){
+        System.out.println("Hello");
+    }
+
 }
 
 public class Main {
@@ -32,6 +36,7 @@ public class Main {
         System.out.println(s1.getName());
         s1.setAge(30);
         System.out.println(s1.getAge());
+        s1.display();
 
     }
 }
